@@ -3,9 +3,9 @@ Section: python
 XS-Python-Version: all
 Priority: optional
 Maintainer: Craig Silverstein <google-gflags@googlegroups.com>
-Build-Depends-Indep: python-central (>= 0.5.6), python-setuptools (>= 0.6b3-1), python-all
-Build-Depends: debhelper (>= 5.0.38)
-Standards-Version: 3.7.2
+Build-Depends-Indep: python-setuptools (>= 0.6b3-1), python-all
+Build-Depends: debhelper (>= 9), dh-python
+Standards-Version: 3.9.6
 
 Package: python-gflags
 Architecture: all
